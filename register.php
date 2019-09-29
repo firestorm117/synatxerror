@@ -36,7 +36,7 @@
                 } 
                 else 
                 {
-                    echo "<font size=6>"."*****Error while Inserting*****"."</font>";
+                    echo "<font size=9>"."*****Error while Inserting*****"."</font>";
                 }
 ?>
 </body>
