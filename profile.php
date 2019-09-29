@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
     	}
     }
     if($i==0)
-    	//echo "<font size=8>"."*******Profile Not Found.********"."</font>";
+    	echo "<font size=8>"."*******Profile Not Found.********"."</font>";
 } else {
     echo "<font size=8>"."*******Profile Not Found.********"."</font>";
 }
