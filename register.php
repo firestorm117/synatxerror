@@ -32,7 +32,7 @@
 	$rel=$conn->query($sql);
 	if($rel) 
                 {
-                    echo "<font size=6>"."*****Added Successfully*****"."</font>";   
+                    //echo "<font size=6>"."*****Added Successfully*****"."</font>";   
                 } 
                 else 
                 {
