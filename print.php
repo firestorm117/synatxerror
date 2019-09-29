@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-$servername = "localhost";
+$servername = "51.158.118.84:33060";
 $username = "prateek";
 $password = "12345678";
 $dbname = "info";
