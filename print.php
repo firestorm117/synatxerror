@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
     if($i==0)
     	echo "<font size=8>"."0 results"."</font>";
 } else {
-    echo "<font size=9>"."0 results"."</font>";
+    //echo "<font size=9>"."0 results"."</font>";
 }
 $conn->close();
 ?>
