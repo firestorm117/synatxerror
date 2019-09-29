@@ -1,0 +1,36 @@
+body{
+    background-image:url(bg.jpg);
+}
+label
+{
+    padding-right:100px;
+}
+.pad
+{
+    color:red;
+}
+.formgroup
+{
+	font-size:20px;
+    padding:10px;
+}
+button {
+          margin-left: 50px;
+          margin-top: 100px;
+         background-color: #4CAF50;
+         border: solid;
+         border-color:black;
+         border-radius:5px;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 25px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+         button:hover {
+             background-color:red;
+            color: white;
+          }

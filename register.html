@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<title>REGISTRATION</title>
+	<style>
+	</style>
+</head>
+<body>
+	<h2 style="color:white;text-align:center;font-size:45px">REGISTER</h2>
+	<form action="register.php" method="post" >
+		<div>
+		<div class="formgroup">
+  		<label>Name:<span style="color:red">*</span></label>
+		  <input class="pad" type="text" name="name" value="" required>
+		</div>
+		<div class="formgroup">
+  		<label>Enroll Number:<span style="color:red">*</span></label>
+  		<input class="pad" type="number" name="enroll" value="" required>
+		  </div>
+		  <div class="formgroup">
+  		<label>Email:<span style="color:red">*</span></label>
+  		<input type="text" class="pad" name="email" value="" required>
+		  </div>
+		  <div class="formgroup">
+  		<label>Mobile No. :<span style="color:red">*</span></label>
+  		<input class="pad" type="number" name="mobile" value="" required>
+		  </div>
+		  <div class="formgroup">
+
+  		<label style="font-size:40px">Skills:</label>
+  		<br><br>
+  		<div style="font-size:25px">
+  		<input type="checkbox" name="skill1" value="S1">Frontend Developer<br>
+  		<input type="checkbox" name="skill2" value="S2">Backend Developer<br>
+  		<input type="checkbox" name="skill3" value="S3">Graphics Designer<br>
+  		<input type="checkbox" name="skill4" value="S4">Algorithm Solver<br>
+  		<input type="checkbox" name="skill5" value="S5">Sketching/Painting<br>
+  		<input type="checkbox" name="skill6" value="S6">Machine Learning<br>
+  		<input type="checkbox" name="skill7" value="S7">Language-Japanese<br>
+  		<input type="checkbox" name="skill8" value="S8">language-German<br>
+  		<input type="checkbox" name="skill9" value="S9">Photography<br>
+  		<input type="checkbox" name="skill10" value="S10">Singing<br>
+  	</div>
+		  <button type="submit" value="Submit">SUBMIT</button>
+		  </div>
+		  </div>
+		</form>
+
+</body>
+</html>
